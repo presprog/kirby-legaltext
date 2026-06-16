@@ -23,8 +23,6 @@
     }
   },
   "extra": {
-    "kirby-plugin": {
-      "name": "legaltext"
-    }
+    "installer-name": "legaltext"
   }
 }
