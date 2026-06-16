@@ -12,7 +12,7 @@ load([
 App::plugin('presprog/legaltext', [
   'fieldMethods' => [
     'legaltext' => function (Field $field): string {
-      return Legaltext::createFromHtml($field->kirbytext())->restoreTocIds();
+      return Legaltext::createFromHtml((string)$field->kirbytext())->restoreTocIds();
     },
   ],
 ]);
