@@ -22,12 +22,6 @@ Use the `legaltext()` field method instead of rendering the field directly when 
 
 ## Installation
 
-Place the plugin in:
-
-```text
-site/plugins/legal
-```
-
 Install the plugin package with Composer:
 
 ```sh
