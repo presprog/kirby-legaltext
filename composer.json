@@ -2,11 +2,25 @@
   "name": "presprog/kirby-legaltext",
   "description": "Kirby field method for restoring legal text table-of-contents heading IDs.",
   "type": "kirby-plugin",
-  "license": "proprietary",
+  "license": "MIT",
   "require": {
     "php": ">=8.1",
     "ext-dom": "*",
-    "ext-libxml": "*"
+    "ext-libxml": "*",
+    "getkirby/composer-installer": "^1.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "PresProg\\Legaltext\\": "classes/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "PresProg\\Legaltext\\Tests\\": "tests/"
+    }
   },
   "extra": {
     "kirby-plugin": {
