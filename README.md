@@ -22,7 +22,20 @@ Use the `legaltext()` field method instead of rendering the field directly when 
 
 ## Installation
 
-Install the plugin package with Composer:
+Add the GitHub repository to your project's `composer.json`:
+
+```json
+{
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:presprog/kirby-legaltext.git"
+    }
+  ]
+}
+```
+
+Then install the plugin package with Composer:
 
 ```sh
 composer require presprog/kirby-legaltext
